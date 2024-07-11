@@ -13,7 +13,7 @@ foreach(_target
     p0430 p0432 p0435 p0436
 #   p0440 p450
     p0460 p0470 p0472
-    p0500 p0510 p0520
+#    p0500 p0510 p0520
   )
   add_executable(${_target} ${_target}.cpp tracker.cpp print.cpp)
 endforeach()
